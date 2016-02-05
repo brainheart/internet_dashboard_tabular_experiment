@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>DataTables example - Bootstrap</title>
+	<link rel="shortcut icon" type="image/png" href="/media/images/favicon.png">
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css">
+	<style type="text/css" class="init">
+	
+	</style>
+	<script type="text/javascript" src="demo.js">
+	</script>
+
+	<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.12.0.min.js">
+	</script>
+
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js">
+	</script>
+
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/dataTables.bootstrap.min.js">
+	</script>
+
+	<script type="text/javascript" class="init">
+	
+$(document).ready(function() {
+	$('#example').DataTable();
+} );
+
+	</script>
+</head>
+<body class="wide comments example dt-example-bootstrap">
+
+		<div class="fw-body">
+			<div class="content">
+				<h1 class="page_title">Add Widget</h1>
+				<div class="info">
+				</div>
+				<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>Data</th>
+							<th>Provider</th>
+							<th>Category</th>
+                                                        <th>Description</th>
+							<th>Widgets</th>
+						</tr>
+					</thead>
+					<tfoot>
+					  <tr>
+                                            		<th>Data</th>
+							<th>Provider</th>
+							<th>Category</th>
+                                                        <th>Description</th>
+							<th>Widgets</th>
+						</tr>
+					</tfoot>
+					<tbody>
+
+
+
+
+                                                        <tr><td>IM Access Index</td><td>Akamai Technologies, Inc.</td><td>access</td><td>Shows the Internet Monitor Access rank and score for countries</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>Network Attacks</td><td>No Provider</td><td>control</td><td>Shows country-level inbound network attack information</td><td><button>Add Global Map</button> <button>Add Country panel</button> <button>Add To Scatterplot</button> </td></tr>
+                                                        <tr><td>Web Requests</td><td>Akamai Technologies, Inc.</td><td>access</td><td>Shows the number of HTTP hits per second the Akamai network receives from each continent</td><td><button>Add Area-chart</button> </td></tr>
+                                                        <tr><td>Bytes Delivered</td><td>Akamai Technologies, Inc.</td><td>access</td><td>Shows which countries are above their typical averages in terms of bytes delivered by Akamai</td><td><button>Add Global Map</button> <button>Add Country panel</button> <button>Add To Scatterplot</button> </td></tr>
+                                                        <tr><td>Broadband Cost</td><td>Change.org</td><td>access</td><td>Shows the cost of broadband access, as a proportion of per capita income, across five tiers based on download speed</td><td><button>Add Table</button> </td></tr>
+                                                        <tr><td>Change.org</td><td>No Provider</td><td>activity</td><td>Shows a real-time map of signatures on Change.org petitions</td><td><button>Add Global Map</button> <button>Add Country panel</button> <button>Add To Scatterplot</button> </td></tr>
+                                                        <tr><td>Connection Speed</td><td>Akamai Technologies, Inc.</td><td>access</td><td>No Description</td><td><button>Add Tachometer</button> </td></tr>
+                                                        <tr><td>Embed</td><td>No Provider</td><td>No Category</td><td>Turns an embeddable object into a widget</td><td><button>Add External-link</button> </td></tr>
+                                                        <tr><td>Web Feed</td><td>No Provider</td><td>No Category</td><td>Shows items from an RSS or Atom feed</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>Global Voices Stories</td><td>Global Voices Online</td><td>activity</td><td>Shows recent Global Voices stories from a selected country</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>3G Connections</td><td>GSMA Intelligence</td><td>access</td><td>Shows the percentage of mobile connections in a country that are 3G</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>4G Connections</td><td>GSMA Intelligence</td><td>access</td><td>Shows the percentage of mobile connections in a country that are 4G</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Prepaid Connections</td><td>GSMA Intelligence</td><td>access</td><td>Shows the percentage of mobile connections in a country that are prepaid</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Mobile Connections</td><td>GSMA Intelligence</td><td>access</td><td>Shows the number of mobile connections per 100 people in a country</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Crowdsourced Website Availability</td><td>Herdict</td><td>control</td><td>Shows the top URLs reported available or unavailable by Herdict users</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>Scatter Plot</td><td>Internet Monitor</td><td>No Category</td><td>Shows a scatterplot of two chosen metrics from the Internet Monitor dataset across all countries</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Threat Data</td><td>Kaspersky Lab ZAO</td><td>control</td><td>Shows hourly spam, attack, and infection data by country</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Takedown Requests</td><td>Lumen</td><td>control</td><td>Shows the number of requests for removal of online materials Lumen has received over time</td><td><button>Add Bar-chart</button> </td></tr>
+                                                        <tr><td>Media Monitor</td><td>Media Cloud</td><td>activity</td><td>Shows a list of recent articles from a selected country that include a selected term</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>News Topics</td><td>Media Cloud</td><td>activity</td><td>Shows a word cloud of news topics from the past week from each country</td><td><button>Add Word Cloud</button> </td></tr>
+                                                        <tr><td>Broadband Adoption</td><td>Akamai Technologies, Inc.</td><td>access</td><td>Shows the percent of a country\'s connections to Akamai with bandwidth greater than 4Mbps</td><td><button>Add Th</button> </td></tr>
+                                                        <tr><td>Percent Online</td><td>International Telecommunications Union</td><td>access</td><td>Shows the percent of a country\'s population using the Internet regularly</td><td><button>Add Th</button> </td></tr>
+                                                        <tr><td>Perma Archives</td><td>Perma.cc</td><td>activity</td><td>Shows web archives from Perma.cc as they are created</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>Corporate Accountability Index</td><td>Ranking Digital Rights</td><td>No Category</td><td>Ranks Internet and telecommunications companies on their practices around freedom of expression and privacy</td><td><button>Add No widgets</button> </td></tr>
+                                                        <tr><td>Tor Clients</td><td>The Tor Project, Inc.</td><td>access</td><td>Shows the daily average number of clients connecting to the Tor network from each country</td><td><button>Add Line-chart</button> </td></tr>
+                                                        <tr><td>Your Content</td><td>No Provider</td><td>No Category</td><td>Allows you to add text and/or an image to your dashboard</td><td><button>Add User</button> </td></tr>
+                                                        <tr><td>Web Index</td><td>World Wide Web Foundation</td><td>access</td><td>Shows measures of the Web’s contribution to social, economic and political progress in countries across the world.</td><td><button>Add Global Map</button> <button>Add Country panel</button> <button>Add To Scatterplot</button> </td></tr>
+                                                        <tr><td>Wikipedia Edits</td><td>The Wikimedia Foundation, Inc.</td><td>activity</td><td>Shows a streaming list of edits to each language\'s Wikipedia</td><td><button>Add List</button> </td></tr>
+                                                        <tr><td>Wikipedia Edit Volume</td><td>The Wikimedia Foundation, Inc.</td><td>activity</td><td>Shows a streaming graph of the number of edits to each language\'s Wikipedia</td><td><button>Add Area-chart</button> </td></tr>
+                                          
+
+                                          
+
+                                          
+					</tbody>
+				</table>
+</body>
+</html>
